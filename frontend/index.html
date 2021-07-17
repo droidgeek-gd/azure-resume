@@ -1,305 +1,340 @@
 <!DOCTYPE html>
 <!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
 <head>
 
    <!--- Basic Page Needs
    ================================================== -->
-   <meta charset="utf-8">
-	<title>Gwyn's Resume</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+   <meta charset="utf-8" />
+   <title>GeeKDroiD's Resume</title>
+   <meta name="description" content="" />
+   <meta name="author" content="" />
 
    <!-- Mobile Specific Metas
    ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<!-- CSS
+   <!-- CSS
     ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
+   <!-- <link rel="stylesheet" href="css/default.css">
+   <link rel="stylesheet" href="css/layout.css"> -->
+   <!-- <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css"> -->
+
+   <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="css/vendor.css">
 
    <!-- Script
    ================================================== -->
    <script src="js/modernizr.js"></script>
    <script src="main.js"></script>
 
+
+   <script defer src="js/vendor/fontawesome/all.min.js"></script>
+
+
    <!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
+   <link rel="shortcut icon" href="favicon.png" />
+
+   <!-- favicons
+    ================================================== -->
+   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+   <link rel="manifest" href="site.webmanifest">
 
 </head>
 
-<body>
+<body id="top" class="ss-preload">
 
-   <!-- Header
-   ================================================== -->
-   <header id="home">
+   <!-- preloader
+    ================================================== -->
+   <div id="preloader">
+      <div id="loader"></div>
+   </div>
 
-      <nav id="nav-wrap">
 
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-         <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
-         </ul> <!-- end #nav -->
-
-      </nav> <!-- end #nav-wrap -->
-
-      <div class="row banner">
-         <div class="banner-text">
-            <h1 class="responsive-headline">Hi, I'm Gwyn</h1>
-            
-            <p>and this page has been viewed <a id="counter"></a> times :) </p> 
-            <ul class="social">
-               <li><a href="https://twitter.com/madebygps"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="https://madebygps.com"><i class="fa fa-external-link"></i></a></li>
-               <li><a href="https://linkedin.com/in/gwyneth-pena"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://instagram.com/madebygps"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="https://youtube.com/madebygps"><i class="fa fa-youtube"></i></a></li>
-               <li><a href="https://github.com/madebygps/cgc-azure-resume"><i class="fa fa-github"></i></a></li>
+   <!-- header
+    ================================================== -->
+   <header class="s-header">
+      <div class="row s-header__nav-wrap">
+         <nav class="s-header__nav">
+            <ul>
+               <li class="current"><a class="smoothscroll" href="#hero">Home</a></li>
+               <!-- <li><a class="smoothscroll" href="#about">About</a></li> -->
+               <li><a class="smoothscroll" href="#resume">Resume</a></li>
             </ul>
+         </nav>
+      </div> <!-- end row -->
+
+      <a class="s-header__menu-toggle" href="#0" title="Menu">
+         <span class="s-header__menu-icon"></span>
+      </a>
+   </header> <!-- end s-header -->
+
+
+
+   <!-- hero
+    ================================================== -->
+   <section id="hero" class="s-hero target-section">
+
+      <div class="s-hero__bg rellax" data-rellax-speed="-7"></div>
+
+      <div class="row s-hero__content">
+         <div class="column">
+
+            <div class="s-hero__content-about">
+
+               <h1 class="responsive-headline">Hi, I'm GeeKDroiD</h1>
+
+               <h3>
+                  <span>and this page has been viewed <a id="counter"></a> times 😳🤗</span>
+               </h3>
+
+               <div class="s-hero__content-social">
+                  <a href="https://www.linkedin.com/in/christian-mota"><i class="fab fa-linkedin"
+                        aria-hidden="true"></i></a>
+                  <a href="https://www.youtube.com/channel/UCb5Cbcpft4YZw83auBA5gig"><i class="fab fa-youtube"
+                        aria-hidden="true"></i></a>
+                  <a href="https://github.com/droidgeek-gd"><i class="fab fa-github" aria-hidden="true"></i></a>
+               </div>
+
+            </div> <!-- end s-hero__content-about -->
+
          </div>
-      </div>
+      </div> <!-- s-hero__content -->
 
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-      </p>
+      <div class="s-hero__scroll">
+         <a href="#about" class="s-hero__scroll-link smoothscroll">
+            <span class="scroll-arrow">
+               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                  style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
+                  <path
+                     d="M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z">
+                  </path>
+               </svg>
+            </span>
+            <span class="scroll-text">Scroll Down</span>
+         </a>
+      </div> <!-- s-hero__scroll -->
 
-   </header> <!-- Header End -->
+   </section> <!-- end s-hero -->
 
 
-   <!-- About Section
-   ================================================== -->
-   <section id="about">
+
+   <!-- about
+    ================================================== -->
+   <!-- <section id="about" class="s-about target-section">
 
       <div class="row">
-
-         <div class="three columns">
-
-            <img class="profile-pic"  src="images/me.png" alt="" />
-
+         <div class="column large-3 tab-12">
+            <img class="s-about__pic" src="images/me.jpg" alt="">
          </div>
+         <div class="column large-9 tab-12 s-about__content">
+            <h3>About Me</h3>
+            <p>
+               Hi, I'm Cristian Mota Nuñez, <span>Software Developer at <a href="https://acloud.guru">A Cloud
+                     Guru</a></span>, <span> <a href="https://mvp.microsoft.com/en-us/PublicProfile/5003866">Azure
+                     MVP</a></span>
+               and <span><a href="https://youtube.com/madebygps">YouTuber</a></span> focused on making cloud learning
+               more accessible and less daunting for everyone.
 
-         <div class="nine columns main-col">
+               </br>
+               </br>
+               I built this page as part of the <span><a href="https://github.com/madebygps/cgc-azure-resume">Cloud Guru
+                     Azure Resume Challenge.</a></span>
+            </p>
 
-            <h2>ABOUT ME</h2>
-
-            <p> Hi, I'm Gwyneth Pena-Siguenza, <span>Training Architect at <a href="https://acloud.guru">A Cloud Guru</a></span>, <span> <a href="https://mvp.microsoft.com/en-us/PublicProfile/5003866">Azure MVP</a></span>
-               and <span><a href="https://youtube.com/madebygps">YouTuber</a></span> focused on making cloud learning more accessible and less daunting for everyone. 
-               
-         </br>
-      </br>
-       I built this page as part of the <span><a href="https://github.com/madebygps/cgc-azure-resume">Cloud Guru Azure Resume Challenge.</a></span>
-            
-
-         </div> <!-- end .main-col -->
-
+            <hr>
+         </div>
       </div>
 
-   </section> <!-- About Section End-->
+   </section> end s-about -->
 
 
-   <!-- Resume Section
-   ================================================== -->
-   <section id="resume">
 
-      <!-- Education
-      ----------------------------------------------- -->
-      <div class="row education">
 
-         <div class="three columns header-col">
-            <h1><span>Certifications</span></h1>
+   <!-- resume
+    ================================================== -->
+   <section id="resume" class="s-resume target-section">
+
+      <div class="row s-resume__section">
+         <div class="column large-3 tab-12">
+            <h3 class="section-header-allcaps">Certifications</h3>
          </div>
+         <div class="column large-9 tab-12">
+            <div class="resume-block">
 
-         <div class="nine columns main-col">
+               <div class="resume-block__header">
+                  <h4 class="h3">Microsoft Azure</h4>
+                  <p class="resume-block__header-meta">
+                     <span>Azure Fundamentals</span>
+                     <span class="resume-block__header-date">
+                        March 2021
+                     </span>
+                  </p>
+               </div>
+            </div> <!-- end resume-block -->
 
-            <div class="row item">
+            <div class="resume-block">
 
-               <div class="twelve columns">
-
-                  <h3>AWS Certified Developer Associate</h3>
-                  <p class="info"><em class="date">March 2018</em></p>
-
+               <div class="resume-block__header">
+                  <h4 class="h3">Microsoft Azure</h4>
+                  <p class="resume-block__header-meta">
+                     <span>Azure Developer Associate</span>
+                     <span class="resume-block__header-date">
+                        June 2021
+                     </span>
+                  </p>
                </div>
 
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Azure Fundamentals AZ900</h3>
-                  <p class="info"><em class="date">July 2020</em></p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>LPI Linux Essentials</h3>
-                  <p class="info"><em class="date">February 2021</em></p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Education -->
-
-
-      <!-- Work
-      ----------------------------------------------- -->
-      <div class="row work">
-
-         <div class="three columns header-col">
-            <h1><span>Work</span></h1>
+            </div> <!-- end resume-block -->
          </div>
+      </div> <!-- s-resume__section -->
 
-         <div class="nine columns main-col">
 
-            <div class="row item">
+      <div class="row s-resume__section">
+         <div class="column large-3 tab-12">
+            <h3 class="section-header-allcaps">Career</h3>
+         </div>
+         <div class="column large-9 tab-12">
+            <div class="resume-block">
 
-               <div class="twelve columns">
-
-                  <h3>A Cloud Guru</h3>
-                  <p class="info">Associate Community Training Architect <span>&bull;</span> <em class="date">November 2020 - Present</em></p>
-
-                  <p>
-                  <li>Creating awesome cloud computing content.</li> 
+               <div class="resume-block__header">
+                  <h4 class="h3">Full-Stack Developer</h4>
+                  <p class="resume-block__header-meta">
+                     <span>Evopoint Solutions</span>
+                     <span class="resume-block__header-date">
+                        July 2021 | Current
+                     </span>
                   </p>
-
                </div>
 
-            </div> <!-- item end -->
+            </div> <!-- end resume-block -->
 
-            <div class="row item">
+            <div class="resume-block">
 
-               <div class="twelve columns">
-
-                  <h3>Powwr | A Cognitive Energy Company</h3>
-                  <p class="info">Cloud Engineer <span>&bull;</span> <em class="date">May 2019 - August 2020</em></p>
-
-                  <p>
-                     <li>Developed cloud native solutions in Azure</li>
-                     <li>CI/CD with Azure DevOps</li>
-                     <li>Full stack .NET development</li>
+               <div class="resume-block__header">
+                  <h4 class="h3">Solvex Dominicana, SRL</h4>
+                  <p class="resume-block__header-meta">
+                     <span>Software Developer</span>
+                     <span class="resume-block__header-date">
+                        May 2020 | June 2021
+                     </span>
                   </p>
-
                </div>
 
-            </div> <!-- item end -->
+            </div>
 
-            <div class="row item">
+            <div class="resume-block">
 
-               <div class="twelve columns">
-
-                  <h3>Powwr | A Cognitive Energy Company</h3>
-                  <p class="info">System Administrator <span>&bull;</span> <em class="date">September 2018 - May 2019</em></p>
-
-                  <p>
-                  <li>Atlassian suite administration</li>
-                  <li>O365 suite administration</li>
-                  <li>SQL server 2019 administration</li>
-                  <li>Azure infrastructure administration</li>
+               <div class="resume-block__header">
+                  <h4 class="h3">Claro Dominicana</h4>
+                  <p class="resume-block__header-meta">
+                     <span>Software Developer (outsourcing)</span>
+                     <span class="resume-block__header-date">
+                        Abr 2019 | May 2020
+                     </span>
                   </p>
-
                </div>
 
-            </div> <!-- item end -->
+            </div>
 
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Tech Boston</h3>
-                  <p class="info">Help Desk Analyst <span>&bull;</span> <em class="date">October 2016 - August 2018</em></p>
-
-                  <p>
-                  <li>Front line help desk IT support</li>
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Apple Danbury</h3>
-                  <p class="info">Mobile tech <span>&bull;</span> <em class="date">December 2014 - August 2016</em></p>
-
-                  <p>
-                  <li>Repaired software and hardware issues related to iOS devices</li>
-                  
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Work -->
+         </div>
+      </div> <!-- s-resume__section -->
 
 
-      
+      <div class="row s-resume__section">
+         <div class="column large-3 tab-12">
+            <h3 class="section-header-allcaps">Skills</h3>
+         </div>
+         <div class="column large-9 tab-12">
+            <div class="resume-block">
+               <ul class="skill-bars-fat">
+                  <li>
+                     <div class="progress percent75"></div>
+                     <strong>AZURE</strong>
+                  </li>
+                  <li>
+                     <div class="progress percent55"></div>
+                     <strong>REGEX</strong>
+                  </li>
+                  <li>
+                     <div class="progress percent85"></div>
+                     <strong>NODEJS</strong>
+                  </li>
+                  <li>
+                     <div class="progress percent60"></div>
+                     <strong>DOTNET (C#)</strong>
+                  </li>
+                  <li>
+                     <div class="progress percent50"></div>
+                     <strong>REACTJS</strong>
+                  </li>
+                  <li>
+                     <div class="progress percent40"></div>
+                     <strong>Transact-SQL</strong>
+                  </li>
+               </ul>
 
-   </section> <!-- Resume Section End-->
+            </div> <!-- end resume-block -->
+
+         </div>
+      </div> <!-- s-resume__section -->
+
+   </section> <!-- end s-resume -->
 
 
    <!-- footer
-   ================================================== -->
-   <footer>
-
+    ================================================== -->
+   <footer class="s-footer">
       <div class="row">
-
-         <div class="twelve columns">
-
-            <ul class="social-links">
-               <li><a href="https://twitter.com/madebygps"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="https://linkedin.com/in/gwyneth-pena"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://madebygps.com"><i class="fa fa-external-link"></i></a></li>
-               <li><a href="https://instagram.com/madebygps"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="https://youtube.com/madebygps"><i class="fa fa-youtube"></i></a></li>
-               <li><a href="https://github.com/madebygps/cgc-azure-resume"><i class="fa fa-github"></i></a></li>
+         <div class="column large-4 medium-6 w-1000-stack s-footer__social-block">
+            <ul class="s-footer__social">
+               <li><a href="https://www.linkedin.com/in/christian-mota"><i class="fab fa-linkedin"
+                        aria-hidden="true"></i></a></li>
+               <li><a href="https://www.youtube.com/channel/UCb5Cbcpft4YZw83auBA5gig"><i class="fab fa-youtube"
+                        aria-hidden="true"></i></a></li>
+               <li><a href="https://github.com/droidgeek-gd"><i class="fab fa-github" aria-hidden="true"></i></a></li>
             </ul>
-
-            <ul class="copyright">
-               <a href="https://www.styleshout.com/free-templates/ceevee/"> Template by CeeVee </a>
-                
-            </ul>
-
          </div>
 
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
-
+         <div class="column large-7 medium-6 w-1000-stack ss-copyright">
+            <span>© Copyright Ceevee 2021</span>
+            <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+         </div>
       </div>
 
-   </footer> <!-- Footer End-->
-
+      <div class="ss-go-top">
+         <a class="smoothscroll" title="Back to Top" href="#top">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+               <path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z" />
+            </svg>
+         </a>
+      </div> <!-- end ss-go-top -->
+   </footer>
    <!-- Java Script
    ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script> -->
 
-   <script src="js/jquery.flexslider.js"></script>
+   <!-- <script src="js/jquery.flexslider.js"></script>
    <script src="js/waypoints.js"></script>
    <script src="js/jquery.fittext.js"></script>
    <script src="js/magnific-popup.js"></script>
-   <script src="js/init.js"></script>
+   <script src="js/init.js"></script> -->
+
+   <!-- Java Script
+    ================================================== -->
+   <script src="js/plugins.js"></script>
+   <script src="js/library.js"></script>
 
 </body>
 
